@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Recetas por el mundo</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+
+</head>
+<body>
+  <app-root></app-root>
+
+<!-- Navbar de buscador-->
+
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">Recetas por el Mundo</a>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+<!-- Offcanvas para registro y inicio de sesion-->
+
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Registrate/Inicia Sesion</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">Registrate</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    
+    <form class="formulario">
+	
+      <h1>Registrate</h1>
+      <div class="contenedor">
+      
+      <div class="input-contenedor">
+        <i class="fas fa-user icon"></i>
+        <input type="text" placeholder="Nombre Completo">
+      </div>
+      
+      <div class="input-contenedor">
+        <i class="fas fa-envelope icon"></i>
+        <input type="text" placeholder="Correo Electronico">
+      </div>
+      
+      <div class="input-contenedor">
+        <i class="fas fa-key icon"></i>
+        <input type="Password" placeholder="Contraseña">
+      </div>
+    
+    <input type="submit" value="Registrate" class="button">
+    <p>Al registrarte, aceptas nuestras condiciones de uso y politica de privacidad</p>
+    <p>¿Ya tienes una cuenta? <a class="link" href="loginvista.html">Iniciar Sesion</a></p>
+    
+    </form>
+
+  </div>
+</div>
+
+<form class="formulario">
+	
+  <h1>Login</h1>
+  <div class="contenedor">
+  
+  <div class="input-contenedor">
+    <i class="fas fa-envelope icon"></i>
+    <input type="text" placeholder="Correo Electronico">
+  </div>
+  
+  <div class="input-contenedor">
+    <i class="fas fa-key icon"></i>
+    <input type="Password" placeholder="Contraseña">
+  </div>
+
+<input type="submit" value="Login" class="button">
+<p>Al registrarte, aceptas nuestras condiciones de uso y politica de privacidad</p>
+<p>¿No tienes una cuenta? <a class="link" href="registrarvista.html">Registrate</a></p>
+
+</form>
+
+
+<!-- Card - Giran al pasar mouse sobre ellas-->
+
+<h3>Categorias</h3>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Aperitivos
+    </div>
+    <div class="back">
+    El aperitivo es la comida ligera que se toma para abrir el apetito, antes de la comida principal del mediodía o antes de la cena
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Arroces
+    </div>
+    <div class="back">
+    El término nacarar en cocina suele utilizarse básicamente con el arroz, en varias de las elaboraciones que se realizan con este cereal
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Sopas y Cremas
+    </div>
+    <div class="back">
+    Es una preparación culinaria que consiste en un líquido con sustancia y sabor 
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Pollo
+    </div>
+    <div class="back">
+    Esta carne blanca es de las más nutritivas. Tiene un gran aporte de proteínas, que son digeridas rápidamente por nuestro organismo 
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Carnes
+    </div>
+    <div class="back">
+    Esta aportan proteínas, grasas y minerales
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Pescados y Maricos
+    </div>
+    <div class="back">
+    Es un alimento muy importante en la buena alimentación de las personas y forma parte de nuestra rica y variada dieta mediterránea
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Ensaladas
+    </div>
+    <div class="back">
+    Es un plato que combina hortalizas frías y varias verduras cortadas, mezcladas y aderezadas. Fundamentalmente con sal, aceite vegetal y vinagre 
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Pastas
+    </div>
+    <div class="back">
+    Son los productos obtenidos pro desecación de una masa no fermentada, elaborada por sémolas, semolinas o harinas procedentes de trigo
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Cocteles
+    </div>
+    <div class="back">
+    Preparación alcohólica resultante de la mezcla de dos o más tipos de bebida
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Salsas
+    </div>
+    <div class="back">
+    Se denomina salsa a una mezcla líquida de ingredientes fríos o calientes que tienen por objeto acompañar a un plato
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Postres
+    </div>
+    <div class="back">
+    Es el plato de sabor dulce o salado que se toma al final de la comida, o de merienda
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="content">
+    <div class="front">
+      Verduras
+    </div>
+    <div class="back">
+    Se consumen como alimento, ya sea de forma cruda o preparada culinariamente 
+    </div>
+  </div>
+</div>
+
+<h3>Tips</h3>
+
+<!-- Boton Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Recomendaciones
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">3 Tips para cuidar tus utensilios de cocina</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      
+    <h4>Cuchillos</h4>
+    La parte más importante de los cuchillos es su filo, por lo que es importante darles un mantenimiento continuo. Afilarlos es sencillo y para hacerlo necesitas tener en tu cocina un afilador, una chaira de acero o cerámica o una piedra afiladora. Al pasar la hoja del cuchillo por su superficie, éste se afila de nuevo. Así extiendes su vida útil
+    <h4>Ollas y sartenes de acero inoxidable</h4>   
+    Cuando adquieras un nuevo sartén u olla de acero, es importante que los laves con agua tibia y jabón antes de usarlos por primera vez.
+    <br>
+    Para su limpieza procura no usar fibras ni estropajos de metal, sino una esponja o un cepillo de cerdas suaves, para mantener su superficie libre de rayones. Tampoco uses cucharas o espátulas de metal al manejar los alimentos, pues también podrían dejar marcas.
+    <br>
+    Si se te quema algo, coloca agua en la olla y ponla a que hierva durante 10 minutos. Deja que se entibie y lava normalmente. Y para evitar las manchas blancas, pon a hervir un chorrito de vinagre con agua durante unos minutos, y después lava como acostumbras.
+    <h4>Moldes de silicona</h4> 
+    Antes de su primer uso, lávalos con agua tibia y jabón. Después de secarlos, aplica en su superficie interna una fina capa de aceite, igual que con los utensilios de hierro. Sólo que en este caso, sólo se aplica una vez, antes de su primer uso.
+    <br>
+    Después de usarlos, lávalos con ayuda de una esponja y jabón suave y sécalos con un paño de microfibra.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Dropdowns -->
+
+<h3>Ver Recetas</h3>
+
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Categorias
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Aperitivos</a></li>
+    <li><a class="dropdown-item" href="#">Arroces</a></li>
+    <li><a class="dropdown-item" href="#">Sopas y Cremas</a></li>
+    <li><a class="dropdown-item" href="#">Pollo</a></li>
+    <li><a class="dropdown-item" href="#">Carnes</a></li>
+    <li><a class="dropdown-item" href="#">Pescados y Maricos</a></li>
+    <li><a class="dropdown-item" href="#">Ensaladas</a></li>
+  </ul>
+</div>
+
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Preferencias
+  </button> 
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Faciles</a></li>
+    <li><a class="dropdown-item" href="#">Dietas</a></li>
+    <li><a class="dropdown-item" href="#">Niños</a></li>
+    <li><a class="dropdown-item" href="#">Saludables</a></li>
+  </ul>
+</div>
+
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Ingredientes
+  </button> 
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Chocolate</a></li>
+    <li><a class="dropdown-item" href="#">Pollo</a></li>
+    <li><a class="dropdown-item" href="#">Pasta</a></li>
+    <li><a class="dropdown-item" href="#">Carne</a></li>
+  </ul>
+</div>
+
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Tipo de Comida
+  </button> 
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Colombiana</a></li>
+    <li><a class="dropdown-item" href="#">Mexicana</a></li>
+    <li><a class="dropdown-item" href="#">Japonesa</a></li>
+    <li><a class="dropdown-item" href="#">China</a></li>
+    <li><a class="dropdown-item" href="#">Argentina</a></li>
+    <li><a class="dropdown-item" href="#">Italiana</a></li>
+  </ul>
+</div>
+
+</div>
+<div class="btn-group">
+  <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Temporadas
+  </button> 
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <li><a class="dropdown-item" href="#">Halloween</a></li>
+    <li><a class="dropdown-item" href="#">Navidad</a></li>
+    <li><a class="dropdown-item" href="#">Cuaresma</a></li>
+    <li><a class="dropdown-item" href="#">Amor y Amistad</a></li>
+    <li><a class="dropdown-item" href="#">Dia de las Madres</a></li>
+    <li><a class="dropdown-item" href="#">Dia del Padre</a></li>
+  </ul>
+</div>
+
+<!-- Acordeon -->
+
+<div class="accordion" id="accordionPanelsStayOpenExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+        Quienes Somos
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+      <div class="accordion-body">
+        <strong>Recetas por el Mundo</strong>Es una pagina web en la que encontraras recetas de cocina casera ideales para hacer platos para todos los gustos y dietas: vegetarianos, veganos, celiacos, alérgicos al huevo, sin azúcar... Bastará con que decidas cuál de nuestras recetas quieres hacer y te pongas a ello.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+        Terminos y Condiciones
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+      <div class="accordion-body">
+        <strong>Terminos y Condiciones</strong>En proceso de digitacion y redaccion 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+        Politica de Privacidad
+      </button>
+    </h2>
+    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+      <div class="accordion-body">
+        <strong>Politica de Privacidad</strong>En proceso de digitacion y redaccion 
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
